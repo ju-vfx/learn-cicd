@@ -27,6 +27,5 @@ func TestGetAPIKey(t *testing.T) {
 		if !reflect.DeepEqual(tc.want, got) {
 			t.Fatalf("%s: expected: %v, got: %v", tc.name, tc.want, got)
 		}
-		t.Fatal()
 	}
 }
